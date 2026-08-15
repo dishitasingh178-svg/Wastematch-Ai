@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="wm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B3D2E" />
+      <stop offset="100%" stop-color="#146B4A" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle with smooth corners -->
+  <rect width="32" height="32" rx="8" fill="url(#wm-grad)" />
+  
+  <!-- Circular Economy Arrow / Leaf Icon -->
+  <g fill="none" stroke="#35A66F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(4, 4)">
+    <path d="M5.5 13.5 A 7 7 0 0 1 12 5" stroke="#C8EBD5" />
+    <path d="M12 5 L9.5 2.5 M12 5 L9.5 7.5" stroke="#C8EBD5" />
+    
+    <path d="M18.5 10.5 A 7 7 0 0 1 12 19" stroke="#35A66F" />
+    <path d="M12 19 L14.5 16.5 M12 19 L14.5 21.5" stroke="#35A66F" />
+    
+    <!-- Central spark/seed -->
+    <circle cx="12" cy="12" r="2.2" fill="#238B5A" stroke="none" />
+  </g>
+</svg>

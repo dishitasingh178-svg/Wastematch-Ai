@@ -1,0 +1,454 @@
+{
+  "data_type": "SAMPLE_DEMO_DATA",
+  "disclaimer": "All facilities are fictional demonstration data created for the WasteMatch AI hackathon prototype. They are not real companies or verified marketplace listings.",
+  "units": {
+    "capacity_per_day": "tonnes/day",
+    "minimum_quantity": "tonnes",
+    "estimated_processing_cost": "INR/tonne",
+    "estimated_reuse_value": "INR/tonne",
+    "estimated_co2_factor": "tonnes CO2e avoided per tonne of waste (prototype estimate)"
+  },
+  "facilities": [
+    {
+      "facility_id": "FAC001",
+      "facility_name": "EcoCement (Sample)",
+      "accepted_waste_types": [
+        "Steel Slag",
+        "Fly Ash"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.5204,
+      "longitude": 73.8567,
+      "capacity_per_day": 50,
+      "minimum_quantity": 5,
+      "contamination_limit": 10,
+      "processing_type": "Cement raw material",
+      "estimated_processing_cost": 1500,
+      "estimated_reuse_value": 4000,
+      "estimated_co2_factor": 0.5
+    },
+    {
+      "facility_id": "FAC002",
+      "facility_name": "GreenRoad Materials (Sample)",
+      "accepted_waste_types": [
+        "Steel Slag",
+        "Fly Ash"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.59,
+      "longitude": 73.74,
+      "capacity_per_day": 30,
+      "minimum_quantity": 3,
+      "contamination_limit": 8,
+      "processing_type": "Road construction material",
+      "estimated_processing_cost": 1800,
+      "estimated_reuse_value": 3500,
+      "estimated_co2_factor": 0.45
+    },
+    {
+      "facility_id": "FAC003",
+      "facility_name": "BuildCycle (Demo)",
+      "accepted_waste_types": [
+        "Steel Slag"
+      ],
+      "location": "Nashik, India",
+      "latitude": 19.9975,
+      "longitude": 73.7898,
+      "capacity_per_day": 40,
+      "minimum_quantity": 5,
+      "contamination_limit": 12,
+      "processing_type": "Construction aggregate",
+      "estimated_processing_cost": 1700,
+      "estimated_reuse_value": 3200,
+      "estimated_co2_factor": 0.4
+    },
+    {
+      "facility_id": "FAC004",
+      "facility_name": "EcoPlast (Sample)",
+      "accepted_waste_types": [
+        "PET"
+      ],
+      "location": "Delhi, India",
+      "latitude": 28.6139,
+      "longitude": 77.209,
+      "capacity_per_day": 10,
+      "minimum_quantity": 1,
+      "contamination_limit": 5,
+      "processing_type": "PET recycling",
+      "estimated_processing_cost": 9000,
+      "estimated_reuse_value": 15000,
+      "estimated_co2_factor": 1.2
+    },
+    {
+      "facility_id": "FAC005",
+      "facility_name": "RePoly (Demo)",
+      "accepted_waste_types": [
+        "HDPE",
+        "PET"
+      ],
+      "location": "Gurgaon, India",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "capacity_per_day": 8,
+      "minimum_quantity": 1,
+      "contamination_limit": 6,
+      "processing_type": "Plastic reprocessing",
+      "estimated_processing_cost": 8500,
+      "estimated_reuse_value": 14000,
+      "estimated_co2_factor": 1.1
+    },
+    {
+      "facility_id": "FAC006",
+      "facility_name": "GreenChem Recovery (Sample)",
+      "accepted_waste_types": [
+        "Solvents",
+        "Used Oil"
+      ],
+      "location": "Noida, India",
+      "latitude": 28.5355,
+      "longitude": 77.391,
+      "capacity_per_day": 5,
+      "minimum_quantity": 0.5,
+      "contamination_limit": 4,
+      "processing_type": "Solvent recovery",
+      "estimated_processing_cost": 12000,
+      "estimated_reuse_value": 19000,
+      "estimated_co2_factor": 1.5
+    },
+    {
+      "facility_id": "FAC007",
+      "facility_name": "MetalCycle (Sample)",
+      "accepted_waste_types": [
+        "Aluminium"
+      ],
+      "location": "Faridabad, India",
+      "latitude": 28.4089,
+      "longitude": 77.3178,
+      "capacity_per_day": 20,
+      "minimum_quantity": 2,
+      "contamination_limit": 8,
+      "processing_type": "Aluminium recycling",
+      "estimated_processing_cost": 6000,
+      "estimated_reuse_value": 11000,
+      "estimated_co2_factor": 1.0
+    },
+    {
+      "facility_id": "FAC008",
+      "facility_name": "GlassLoop (Demo)",
+      "accepted_waste_types": [
+        "Glass"
+      ],
+      "location": "Mumbai, India",
+      "latitude": 19.076,
+      "longitude": 72.8777,
+      "capacity_per_day": 15,
+      "minimum_quantity": 2,
+      "contamination_limit": 7,
+      "processing_type": "Glass cullet recycling",
+      "estimated_processing_cost": 2500,
+      "estimated_reuse_value": 5000,
+      "estimated_co2_factor": 0.35
+    },
+    {
+      "facility_id": "FAC009",
+      "facility_name": "PaperCycle (Sample)",
+      "accepted_waste_types": [
+        "Paper/Cardboard"
+      ],
+      "location": "Delhi, India",
+      "latitude": 28.7041,
+      "longitude": 77.1025,
+      "capacity_per_day": 25,
+      "minimum_quantity": 2,
+      "contamination_limit": 10,
+      "processing_type": "Paper pulping",
+      "estimated_processing_cost": 3000,
+      "estimated_reuse_value": 6500,
+      "estimated_co2_factor": 0.6
+    },
+    {
+      "facility_id": "FAC010",
+      "facility_name": "E-Waste Renew (Demo)",
+      "accepted_waste_types": [
+        "E-Waste"
+      ],
+      "location": "Bengaluru, India",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "capacity_per_day": 12,
+      "minimum_quantity": 0.5,
+      "contamination_limit": 5,
+      "processing_type": "Electronics material recovery",
+      "estimated_processing_cost": 18000,
+      "estimated_reuse_value": 30000,
+      "estimated_co2_factor": 2.0
+    },
+    {
+      "facility_id": "FAC011",
+      "facility_name": "TextileLoop (Sample)",
+      "accepted_waste_types": [
+        "Textiles"
+      ],
+      "location": "Tiruppur, India",
+      "latitude": 11.1085,
+      "longitude": 77.3411,
+      "capacity_per_day": 18,
+      "minimum_quantity": 1,
+      "contamination_limit": 10,
+      "processing_type": "Textile fibre recovery",
+      "estimated_processing_cost": 4500,
+      "estimated_reuse_value": 8000,
+      "estimated_co2_factor": 0.7
+    },
+    {
+      "facility_id": "FAC012",
+      "facility_name": "TyreCycle (Demo)",
+      "accepted_waste_types": [
+        "Tires"
+      ],
+      "location": "Ahmedabad, India",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "capacity_per_day": 25,
+      "minimum_quantity": 3,
+      "contamination_limit": 5,
+      "processing_type": "Tyre-derived material",
+      "estimated_processing_cost": 5000,
+      "estimated_reuse_value": 9000,
+      "estimated_co2_factor": 0.9
+    },
+    {
+      "facility_id": "FAC013",
+      "facility_name": "FlyAsh Renew (Sample)",
+      "accepted_waste_types": [
+        "Fly Ash"
+      ],
+      "location": "Nagpur, India",
+      "latitude": 21.1458,
+      "longitude": 79.0882,
+      "capacity_per_day": 60,
+      "minimum_quantity": 5,
+      "contamination_limit": 8,
+      "processing_type": "Cement and concrete additive",
+      "estimated_processing_cost": 1000,
+      "estimated_reuse_value": 2800,
+      "estimated_co2_factor": 0.55
+    },
+    {
+      "facility_id": "FAC014",
+      "facility_name": "SolventLoop (Demo)",
+      "accepted_waste_types": [
+        "Solvents"
+      ],
+      "location": "Chennai, India",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "capacity_per_day": 4,
+      "minimum_quantity": 0.5,
+      "contamination_limit": 3,
+      "processing_type": "Solvent distillation",
+      "estimated_processing_cost": 13000,
+      "estimated_reuse_value": 21000,
+      "estimated_co2_factor": 1.6
+    },
+    {
+      "facility_id": "FAC015",
+      "facility_name": "AluRecover (Sample)",
+      "accepted_waste_types": [
+        "Aluminium"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.6298,
+      "longitude": 73.7997,
+      "capacity_per_day": 15,
+      "minimum_quantity": 1,
+      "contamination_limit": 7,
+      "processing_type": "Aluminium remelting",
+      "estimated_processing_cost": 5500,
+      "estimated_reuse_value": 10500,
+      "estimated_co2_factor": 1.05
+    },
+    {
+      "facility_id": "FAC016",
+      "facility_name": "HDPE Renew (Demo)",
+      "accepted_waste_types": [
+        "HDPE"
+      ],
+      "location": "Mumbai, India",
+      "latitude": 19.2183,
+      "longitude": 72.9781,
+      "capacity_per_day": 7,
+      "minimum_quantity": 1,
+      "contamination_limit": 5,
+      "processing_type": "HDPE pelletizing",
+      "estimated_processing_cost": 8000,
+      "estimated_reuse_value": 13500,
+      "estimated_co2_factor": 1.15
+    },
+    {
+      "facility_id": "FAC017",
+      "facility_name": "Cardboard Circular (Sample)",
+      "accepted_waste_types": [
+        "Paper/Cardboard"
+      ],
+      "location": "Hyderabad, India",
+      "latitude": 17.385,
+      "longitude": 78.4867,
+      "capacity_per_day": 20,
+      "minimum_quantity": 2,
+      "contamination_limit": 12,
+      "processing_type": "Paper and board recycling",
+      "estimated_processing_cost": 2800,
+      "estimated_reuse_value": 6000,
+      "estimated_co2_factor": 0.55
+    },
+    {
+      "facility_id": "FAC018",
+      "facility_name": "UsedOil Recovery (Demo)",
+      "accepted_waste_types": [
+        "Used Oil"
+      ],
+      "location": "Vadodara, India",
+      "latitude": 22.3072,
+      "longitude": 73.1812,
+      "capacity_per_day": 10,
+      "minimum_quantity": 1,
+      "contamination_limit": 6,
+      "processing_type": "Used oil re-refining",
+      "estimated_processing_cost": 7000,
+      "estimated_reuse_value": 12500,
+      "estimated_co2_factor": 1.3
+    },
+    {
+      "facility_id": "FAC019",
+      "facility_name": "GlassRenew (Sample)",
+      "accepted_waste_types": [
+        "Glass"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.65,
+      "longitude": 73.78,
+      "capacity_per_day": 12,
+      "minimum_quantity": 1,
+      "contamination_limit": 6,
+      "processing_type": "Glass recycling",
+      "estimated_processing_cost": 2300,
+      "estimated_reuse_value": 4800,
+      "estimated_co2_factor": 0.38
+    },
+    {
+      "facility_id": "FAC020",
+      "facility_name": "MetalWorks Circular (Demo)",
+      "accepted_waste_types": [
+        "Aluminium",
+        "Steel Slag"
+      ],
+      "location": "Mumbai, India",
+      "latitude": 19.1136,
+      "longitude": 72.8697,
+      "capacity_per_day": 25,
+      "minimum_quantity": 3,
+      "contamination_limit": 9,
+      "processing_type": "Industrial material recovery",
+      "estimated_processing_cost": 5000,
+      "estimated_reuse_value": 9500,
+      "estimated_co2_factor": 0.8
+    },
+    {
+      "facility_id": "FAC021",
+      "facility_name": "PolymerFilm Circular (Sample)",
+      "accepted_waste_types": [
+        "LDPE",
+        "PP",
+        "Plastic Film"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.5204,
+      "longitude": 73.8567,
+      "capacity_per_day": 12,
+      "minimum_quantity": 1,
+      "contamination_limit": 6,
+      "processing_type": "Polyolefin film pelletizing",
+      "estimated_processing_cost": 7500,
+      "estimated_reuse_value": 13000,
+      "estimated_co2_factor": 1.15
+    },
+    {
+      "facility_id": "FAC022",
+      "facility_name": "Vinyl & Rigid Polymer Renew (Demo)",
+      "accepted_waste_types": [
+        "PVC",
+        "Rigid Polymers"
+      ],
+      "location": "Ahmedabad, India",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "capacity_per_day": 15,
+      "minimum_quantity": 2,
+      "contamination_limit": 5,
+      "processing_type": "Rigid PVC micronizing",
+      "estimated_processing_cost": 6800,
+      "estimated_reuse_value": 11500,
+      "estimated_co2_factor": 0.95
+    },
+    {
+      "facility_id": "FAC023",
+      "facility_name": "Deccan Silica & Mineral (Sample)",
+      "accepted_waste_types": [
+        "Silica",
+        "Foundry Sand",
+        "Mineral Slurry"
+      ],
+      "location": "Pune, India",
+      "latitude": 18.55,
+      "longitude": 73.80,
+      "capacity_per_day": 35,
+      "minimum_quantity": 3,
+      "contamination_limit": 12,
+      "processing_type": "Mineral recovery & binder formulation",
+      "estimated_processing_cost": 1600,
+      "estimated_reuse_value": 3800,
+      "estimated_co2_factor": 0.48
+    },
+    {
+      "facility_id": "FAC024",
+      "facility_name": "GreenBiomass Energy (Demo)",
+      "accepted_waste_types": [
+        "Organic",
+        "Biomass",
+        "Agri-Waste"
+      ],
+      "location": "Nashik, India",
+      "latitude": 19.9975,
+      "longitude": 73.7898,
+      "capacity_per_day": 40,
+      "minimum_quantity": 2,
+      "contamination_limit": 15,
+      "processing_type": "Biomass briquetting & anaerobic digestion",
+      "estimated_processing_cost": 1200,
+      "estimated_reuse_value": 3100,
+      "estimated_co2_factor": 0.65
+    },
+    {
+      "facility_id": "FAC025",
+      "facility_name": "HazTreat Environmental (Sample)",
+      "accepted_waste_types": [
+        "Hazardous Chemical",
+        "Chemical Sludge",
+        "Solvents",
+        "Used Oil"
+      ],
+      "location": "Ankleshwar, India",
+      "latitude": 21.6264,
+      "longitude": 73.0033,
+      "capacity_per_day": 8,
+      "minimum_quantity": 0.5,
+      "contamination_limit": 5,
+      "processing_type": "Hazardous waste thermal co-processing",
+      "estimated_processing_cost": 16000,
+      "estimated_reuse_value": 24000,
+      "estimated_co2_factor": 1.8,
+      "is_hazardous": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "WasteMatch",
+  "description": "AI-powered industrial resource marketplace connecting companies to turn industrial waste into secondary raw materials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
