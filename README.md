@@ -12,7 +12,7 @@ Instead of treating industrial by-products as waste, WasteMatch identifies **pot
 
 ## 👥 Team
 
-### Team GROK IS THIS TRUW
+### Team GROK IS THIS TRUE
 
 * **Vishesh Agrawal**
 * **Dishita Singh**
