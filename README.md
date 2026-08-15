@@ -390,7 +390,7 @@ If no suitable facility satisfies the required constraints, the system can clear
 # 📁 Project Structure
 
 ```text
-waste-match-ai/
+Wastematch-Ai/
 │
 ├── data/
 │
@@ -505,8 +505,8 @@ Make sure you have:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/waste-match-ai.git
-cd waste-match-ai
+git clone https://github.com/YOUR-USERNAME/Wastematch-Ai.git
+cd Wastematch-Ai
 ```
 
 ---
