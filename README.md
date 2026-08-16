@@ -1,4 +1,4 @@
-# ♻️ WasteMatch AI
+# ♻️ WasteMatch AI  
 
 ### AI-Powered Industrial Resource Marketplace
 
